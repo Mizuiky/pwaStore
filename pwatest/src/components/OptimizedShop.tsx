@@ -145,7 +145,7 @@ const OptimizedShopItem = React.memo<OptimizedShopItemProps>(({ item, index, dev
 OptimizedShopItem.displayName = 'OptimizedShopItem';
 
 interface OptimizedShopProps {
-  onBack: () => void;
+  onBack?: () => void;
 }
 
 const OptimizedShop: React.FC<OptimizedShopProps> = ({ onBack }) => {

@@ -12,12 +12,16 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+export const viewport = {
+  themeColor: '#ffffff', // Mova para cá
+  width: 'device-width',
+  initialScale: 1
+}
+
 export const metadata: Metadata = {
   title: "PWA Lojinha Otimizada - Performance para Dispositivos Limitados",
   description: "Demonstração de técnicas avançadas de otimização para PWAs em dispositivos com recursos limitados e conexões lentas usando Next.js",
   manifest: "/manifest.json",
-  themeColor: "#2563eb",
-  viewport: "width=device-width, initial-scale=1, maximum-scale=1",
   keywords: ["PWA", "Next.js", "Performance", "Otimização", "Lojinha", "E-commerce"],
   authors: [{ name: "Manus AI" }],
   openGraph: {
